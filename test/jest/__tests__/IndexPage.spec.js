@@ -1,6 +1,3 @@
-import IndexPage from 'src/pages/IndexPage.vue'
-import { shallowMount } from '@vue/test-utils'
-
 //describe('IndexPage', () => {
   //it('ตรวจสอบหัวข้อ (title)', () => {
     //const wrapper = shallowMount(IndexPage)
@@ -37,6 +34,8 @@ import { shallowMount } from '@vue/test-utils'
   //const wrapper = shallowMount(IndexPage)
   //expect(wrapper.find('button').exists()).toBe(true)
 //})
+import IndexPage from 'src/pages/IndexPage.vue'
+import { shallowMount } from '@vue/test-utils'
 
 describe('ประวัติส่วนตัว', () => {
 
